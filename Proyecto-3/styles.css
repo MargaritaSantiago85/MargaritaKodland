@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d8a456;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+}
+
+.btn {
+background-color: darkseagreen;
+color: beige;
+border-radius: 5px;
+font-size: 16px;
+margin: 20px;
+cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: coral;
+    transform: scale(1.05);
+}
